@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Core", "src\CulinaryDiary.Core\CulinaryDiary.Core.csproj", "{F4824D69-9C02-4611-BEEE-64EAB86FD217}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Infrastructure", "src\CulinaryDiary.Infrastructure\CulinaryDiary.Infrastructure.csproj", "{15D881EC-4DE1-4E87-BA3B-84EC0D488159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{F4824D69-9C02-4611-BEEE-64EAB86FD217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4824D69-9C02-4611-BEEE-64EAB86FD217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4824D69-9C02-4611-BEEE-64EAB86FD217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE84A686-1E74-431C-9FF4-F59CB679E2A2}
 	EndGlobalSection
 EndGlobal
