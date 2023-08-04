@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Core", "src\CulinaryDiary.Core\CulinaryDiary.Core.csproj", "{F4824D69-9C02-4611-BEEE-64EAB86FD217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryDiary.Core", "src\CulinaryDiary.Core\CulinaryDiary.Core.csproj", "{F4824D69-9C02-4611-BEEE-64EAB86FD217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Infrastructure", "src\CulinaryDiary.Infrastructure\CulinaryDiary.Infrastructure.csproj", "{15D881EC-4DE1-4E87-BA3B-84EC0D488159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryDiary.Infrastructure", "src\CulinaryDiary.Infrastructure\CulinaryDiary.Infrastructure.csproj", "{15D881EC-4DE1-4E87-BA3B-84EC0D488159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Api", "src\CulinaryDiary.Api\CulinaryDiary.Api.csproj", "{8A1AA3C1-DE31-4497-B6FE-19796958B453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryDiary.Api", "src\CulinaryDiary.Api\CulinaryDiary.Api.csproj", "{8A1AA3C1-DE31-4497-B6FE-19796958B453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Tests.Identity", "tests\CulinaryDiary.Tests.Identity\CulinaryDiary.Tests.Identity.csproj", "{796098BD-9ECB-43F2-BE20-83D781181921}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796098BD-9ECB-43F2-BE20-83D781181921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796098BD-9ECB-43F2-BE20-83D781181921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796098BD-9ECB-43F2-BE20-83D781181921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796098BD-9ECB-43F2-BE20-83D781181921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
