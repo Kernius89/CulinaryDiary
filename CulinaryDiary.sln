@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Core", "src\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Infrastructure", "src\CulinaryDiary.Infrastructure\CulinaryDiary.Infrastructure.csproj", "{15D881EC-4DE1-4E87-BA3B-84EC0D488159}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDiary.Api", "src\CulinaryDiary.Api\CulinaryDiary.Api.csproj", "{8A1AA3C1-DE31-4497-B6FE-19796958B453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15D881EC-4DE1-4E87-BA3B-84EC0D488159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1AA3C1-DE31-4497-B6FE-19796958B453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
